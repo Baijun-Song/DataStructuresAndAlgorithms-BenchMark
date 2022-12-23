@@ -1,11 +1,29 @@
 extension BenchMark {
+  @usableFromInline
   struct Unit {
-    let _storedClosure: () -> Void
-    var _runMode: RunMode
-    var _enabled: Bool
+    @usableFromInline
+    let storedClosure: () -> Void
     
+    @usableFromInline
+    var runMode: RunMode
+    
+    @usableFromInline
+    var enabled: Bool
+    
+    @inlinable @inline(__always)
+    init(
+      storedClosure: @escaping () -> Void,
+      runMode: RunMode,
+      enabled: Bool
+    ) {
+      self.storedClosure = storedClosure
+      self.runMode = runMode
+      self.enabled = enabled
+    }
+    
+    @inlinable @inline(__always)
     func callAsFunction() {
-      _storedClosure()
+      storedClosure()
     }
   }
 }
