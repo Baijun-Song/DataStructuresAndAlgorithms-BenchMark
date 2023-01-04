@@ -12,6 +12,7 @@
 		0B41CE3F2906CC120050F82B /* BenchMark.RunMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B41CE3E2906CC120050F82B /* BenchMark.RunMode.swift */; };
 		0B41CE412906CC3F0050F82B /* BenchMark.Unit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B41CE402906CC3F0050F82B /* BenchMark.Unit.swift */; };
 		0B41CE432906CC960050F82B /* BenchMark+MakeDemoArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B41CE422906CC960050F82B /* BenchMark+MakeDemoArray.swift */; };
+		0BA7171F2961DC900003BBFC /* BenchMark.DemoArrayElementsOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BA7171E2961DC900003BBFC /* BenchMark.DemoArrayElementsOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0B41CE3E2906CC120050F82B /* BenchMark.RunMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchMark.RunMode.swift; sourceTree = "<group>"; };
 		0B41CE402906CC3F0050F82B /* BenchMark.Unit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchMark.Unit.swift; sourceTree = "<group>"; };
 		0B41CE422906CC960050F82B /* BenchMark+MakeDemoArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BenchMark+MakeDemoArray.swift"; sourceTree = "<group>"; };
+		0BA7171E2961DC900003BBFC /* BenchMark.DemoArrayElementsOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BenchMark.DemoArrayElementsOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				0B41CE3C2906AD3B0050F82B /* BenchMark.swift */,
 				0B41CE3E2906CC120050F82B /* BenchMark.RunMode.swift */,
 				0B41CE422906CC960050F82B /* BenchMark+MakeDemoArray.swift */,
+				0BA7171E2961DC900003BBFC /* BenchMark.DemoArrayElementsOrder.swift */,
 			);
 			path = Public;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 			files = (
 				0B41CE432906CC960050F82B /* BenchMark+MakeDemoArray.swift in Sources */,
 				0B41CE3D2906AD3B0050F82B /* BenchMark.swift in Sources */,
+				0BA7171F2961DC900003BBFC /* BenchMark.DemoArrayElementsOrder.swift in Sources */,
 				0B41CE3F2906CC120050F82B /* BenchMark.RunMode.swift in Sources */,
 				0B41CE412906CC3F0050F82B /* BenchMark.Unit.swift in Sources */,
 			);

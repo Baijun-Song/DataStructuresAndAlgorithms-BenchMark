@@ -1,9 +1,4 @@
 extension BenchMark {
-  public enum DemoArrayElementsOrder {
-    case ascending
-    case descending
-  }
-  
   public static func makeIntegerDemoArray(
     order: DemoArrayElementsOrder,
     in range: Range<Int>,
